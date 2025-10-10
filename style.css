@@ -7,3 +7,9 @@ h1 {
 .name {
   background-color: blue;
 }
+
+.question {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+}
