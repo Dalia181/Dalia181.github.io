@@ -4,11 +4,11 @@ h1 {
 }
 
 .name {
-  background-color: ;
+  color: purple;
 }
 
 .question {
   font-size: 1rem;
-  color: black;
-  background-color: white;
+  color: purple;
+  background-color: blue;
 }
