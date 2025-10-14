@@ -10,6 +10,7 @@ h1 {
 .question {
   font-size: 1rem;
   color: purple;
+  border-style: dashed; 
   border: 5px;
   border-color: black; 
 }
