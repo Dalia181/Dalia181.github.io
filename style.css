@@ -1,15 +1,14 @@
 h1 {
   color: DodgerBlue;
-  font-size: 1rem;
-  text-decoration: underline;
+  font-size: 1rem; 
 }
 
 .name {
-  background-color: blue;
+  background-color: ;
 }
 
 .question {
-  font-size: 2rem;
-  color: white;
-  background-color: black;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
 }
