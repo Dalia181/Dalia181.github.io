@@ -4,21 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frogs of the Rainforest</title>
-  <link rel="stylesheet" href="frogs.css">
+  <link rel="stylesheet" href="frogs.css"> <<!-- fixed issue 1: I added the missing .css extension, this is needed because the browser wouldn't be able to recognize it as a stylesheet and it wouldn't load which will leave our webpage unstyled. -->
+</head>
 </head>
 <body>
-  <div id="topbar">
-    <h1>🐸 Frogs of the Rainforest</h1>
+  <div id="topbar"> <!-- fixed issue 2: Missing qotations. This was a bug because the attribute values have to have qotations so the css code properly targets what you want it to.-->
+    <h1>🐸 Frogs of the Rainforest</h1> <!-- Fixed issue 3: The closing h1 tag was missing. Not having a closed h1 tag can lead to improper strucutre in our webpage which can effect the rest of the code in our webpage, not allowing it to function how we want it to. -->
     <h2>Name</h2>
   </div>
 
   <div class="panel">
-    <h2>Meet the Frogs</h2>
+    <h2>Meet the Frogs</h2> <!-- fixed issue 4: Incorrect h2 tags. Instead of having one starting tag and one closing, there were two starting tags. This can confuse the browser because it won't know where the h2 tag ends which can effect all our other code and layout of the web page.--> 
     <p>Frogs are incredible amphibians that live on every continent except Antarctica. Their
     smooth, moist skin helps them breathe through it.</p>
   </div>
 
-  <div class="panel">
+  <div class="panel"> <!-- fixed issue 5: The attribute wasn't written properly, because of this the css code targeting panel didn't work, so that part of the code remained unstyled and distrupt the inteneded layout--> 
     <h2>Life Cycle</h2>
     <p>Frogs begin life as eggs in water, hatch into tadpoles, and grow legs as they transform
     into adult frogs. This is called metamorphosis.</p>
@@ -26,18 +27,18 @@
     <div id="pond">
       <p>Here’s a “pond” — the parent container.</p>
       <div id="tadpole">
-        <p>I'm positioned <strong>absolutely</strong> within my parent!</p>
+        <p>I'm positioned <strong>absolutely</strong> within my parent!</p> <!-- fixed issue 6: The closing tag for strong was mispelt as strange. This caused the the bold text format to leak into all the other text because the tag wasn't closed.--> 
       </div>
     </div>
   </div>
 
   <div class="panel">
-    <h2>Behavior</h2>
+    <h2>Behavior</h2> <!-- fixed issue 7: The tags didn't match, one being an h2 tag and the other being an h3 tag. This can mess up the hiearchy and overall layout. --> 
     <p>Many frogs are nocturnal. They use sticky tongues to catch insects and call loudly to
     attract mates.</p>
 
     <div id="fun-fact">
-      <p><strong>Fun Fact:</strong> Some frogs can leap more than 20 times their body length!</p>
+      <p><strong>Fun Fact:</strong> Some frogs can leap more than 20 times their body length!</p> <!-- fixed issue 8: The strong tag wasn't closed properly, this again causes the bold format to leak over into the unintended text.--> 
     </div>
   </div>
 
@@ -45,4 +46,4 @@
     <p>© 2025 Frogs of the Rainforest</p>
   </div>
 </body>
-</html>
+</html> 
