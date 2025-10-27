@@ -1,55 +1,60 @@
 body {
-font-family: Verdana, sans-serif;
-margin: 0;
-background-color: #dfffe0
-color: #083b0a;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-color: #dfffe0; /* Fixed number 1, the end of the code was missing a semi colon, without it the color wouldn't work becasue the css code needs semi colons in order to seperate the rules*/   
+  color: #083b0a;
 }
-.topbar {
-position: fixed;
-top 0;
-width: 100%;
-background-color: #2e8b57;
-colour: white;
-text-align: center;
-padding: 20px 0;
-z-index: 5;
-}
-.panels {
-width: 70%;
-margin: 120px auto;
-background-color: white;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-pudding: 30px;
-position: relative;
-}
-#pond {
 
-position: relative;
-background-color: a5f0a0;
-padding: 25pz;
-border-radius: 8px;
-margin-top: 25px;
+#topbar {      /* Fixed number 2, in css code the hashtag targets IDs while the period targets classes, so I changed the period into a hashtag in order for the css code to work */
+  position: fixed;
+  top: 0; /* Fixed number 3,  A colon was missing between the property and value, so without it the code wouldn't be applied */ 
+  width: 100%;
+  background-color: #2e8b57;
+  color: white; /* Fixed number 4,  The word colour was spelt the canadian way, but for the code to work it needs to be spelt the american way so I changed it so the code can work*/ 
+  text-align: center;
+  padding: 20px 0;
+  z-index: 5;
 }
-#tadpole {
-position: absolutely;
-top: 10px;
-left: 15px;
-background-color: #6dcf78;
-color: white;
-padding: 10px;
-border-radius: 6px;
+
+.panel { /* Fixed number 5, the typo "panels" made the code invalid so the none of the panels would appear breaking the layout*/ 
+  width: 70%;
+  margin: 120px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 30px; /* Fixed number 6, minor typo. The word padding was typed as pudding, but the typo wouldn't allow padding inside the element to be applied*/ 
+  position: relative;
+}
+
+#pond {
+  position: relative;
+  background-color: #a5f0a0; /* Fixed number 7, missing a hashtag which makes the code invalid and the browser would just ignore it, so adding it makes us able to change the background color*/ 
+  padding: 25px; /* Fixed number 8, the typo "pz". Since pz doesn't exist in CSS code, the padding would be ignored and not applied, which would remove the space in the pond container*/ 
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+#tadpole { 
+  position: absolute; /* fixed number 9: changed the word absolutley to absolute, absolutley is invalid which would make the code invalid. So by changing it we made the code valid again*/ 
+  top: 10px;
+  left: 15px;
+  background-color: #6dcf78;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+} /* Fixed number 10: added a curly closing bracket at the end of the tadpole block. This allows for the Css code to tell that this is ended and not to let it spill into all the other code down below*/ 
 
 #fun-fact {
-background-color: #c7f7b5;
-border-left: 6px solid #2e8b57;
-padding: 12px;
-margin-top: 20px;
+  background-color: #c7f7b5;
+  border-left: 6px solid #2e8b57;
+  padding: 12px;
+  margin-top: 20px;
 }
-#footer
-text-align: center;
-padding: 20px;
-background-color: #2e8b57;
-color: white;
-margin-top: 60px;
-} 
+
+#footer { /*fixed number 11, missing an opening curly bracket, the footer style was ignored so by adding a bracket the CSS code was applied */ 
+  text-align: center;
+  padding: 20px;
+  background-color: #2e8b57;
+  color: white;
+  margin-top: 60px;
+}
