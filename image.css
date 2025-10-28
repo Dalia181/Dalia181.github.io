@@ -18,3 +18,10 @@ body{
   border-radius:5px;
   display: Block; 
 } 
+
+.container{
+text-align: center;
+padding: 10px 20px;
+color: black;
+font-size: 1.5rem; 
+} 
