@@ -11,3 +11,10 @@ body{
     margin-bottom: 25px;
    border-radius:5px; 
 }
+
+.poloroid img{
+  width: 95%;
+  margin:auto; 
+  border-radius:5px;
+  display: Block; 
+} 
