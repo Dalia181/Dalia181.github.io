@@ -1,1 +1,24 @@
-
+.about {
+  background-color:pink;
+  border:2px solid;
+  border-radius: 50px;
+  border-size: 12px; 
+  margin:10%;
+  padding:5%;
+  
+  }
+.contact{
+  background-color:pink;
+   border:2px solid;
+  border-radius: 50px;
+  border-size: 12px; 
+  margin:10%;
+  padding:5%;
+  
+}
+.about-title{
+  text-decoration:underline;
+}
+.contact-title{
+  text-decoration:underline;
+}
