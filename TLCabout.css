@@ -20,8 +20,8 @@
   font-size: 28px;
 }
 
-/* FIXED BACKGROUND */
-body {
+
+.body {
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,6 @@ body {
   margin: 0;
 }
 
-/* FIXED NAVBAR */
 .nav {
   background-color: white;
   border: 2px solid black;
@@ -48,7 +47,7 @@ body {
   text-decoration: underline;
 }
 
-body {
+.body {
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
   background-size: cover;  
