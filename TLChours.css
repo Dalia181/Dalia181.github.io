@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: "Fraunces", serif;
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
 
 
 
-h3 {
+.h3 {
   font-size: 32px;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -43,7 +43,7 @@ h3 {
 }
 
 
-p {
+.p {
   font-size: 20px;
   line-height: 1.6;
   margin: 10px auto 20px auto;
@@ -55,7 +55,7 @@ p {
 }
 
 
-ul {
+.ul {
   list-style: none;
   padding: 0;
   margin: 10px auto 20px auto;
@@ -66,13 +66,13 @@ ul {
   padding: 15px;
 }
 
-li {
+.li {
   font-size: 20px;
   margin: 8px 0;
 }
 
 
-strong {
+.strong {
   font-weight: 700;
 }
 
