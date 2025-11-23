@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: "Fraunces", serif;
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
@@ -62,18 +62,18 @@ h1, h2, h3 {
   position: relative;
 }
 
-ul {
+.ul {
   list-style: none;
   padding: 0;
   margin: 10px 0;
 }
 
-li {
+.li {
   font-size: 20px;
   margin: 8px 0;
 }
 
-strong {
+.strong {
   font-weight: 700;
 }
 
