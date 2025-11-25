@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Fraunces", serif;
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
   transform: scale(1.05);
 }
 
-.h1, h2, h3 {
+h1, h2, h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -46,11 +46,9 @@
   background-color: pink;
   border: 3px solid black;
   border-radius: 50px;
-  margin: auto;
-  padding-left: 40%;
-  padding-right: 40%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px 40px;
+  width: fit-content;
+  margin: 20px auto;
 }
 
 .week, .Coffee, .Specialty, .Bake {
@@ -62,19 +60,15 @@
   position: relative;
 }
 
-.ul {
+ul {
   list-style: none;
   padding: 0;
   margin: 10px 0;
 }
 
-.li {
+li {
   font-size: 20px;
   margin: 8px 0;
-}
-
-.strong {
-  font-weight: 700;
 }
 
 .cute-icon img, .icon img {
@@ -82,6 +76,4 @@
   display: block;
   margin: 15px auto;
 }
-
-
 
