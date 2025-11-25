@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Fraunces", serif;
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjUzLXJlbWl4LWNvZi0wMDdhLWMuanBn.jpg");
   background-repeat: no-repeat;
@@ -10,7 +10,6 @@
   color: #2b1d1d;
   text-align: center;
 }
-
 
 .nav {
   width: 100%;
@@ -33,17 +32,14 @@
   text-decoration: underline;
 }
 
-
-
-.h3 {
+h3 {
   font-size: 32px;
   margin-top: 40px;
   margin-bottom: 10px;
   text-decoration: underline;
 }
 
-
-.p {
+p {
   font-size: 20px;
   line-height: 1.6;
   margin: 10px auto 20px auto;
@@ -54,34 +50,26 @@
   border: 2px solid black;
 }
 
-
-.ul {
+ul {
   list-style: none;
-  padding: 0;
+  padding: 15px;
   margin: 10px auto 20px auto;
   width: 60%;
   background-color: pink;
   border-radius: 30px;
   border: 2px solid black;
-  padding: 15px;
 }
 
-.li {
+li {
   font-size: 20px;
   margin: 8px 0;
 }
 
-
-.strong {
+strong {
   font-weight: 700;
 }
 
 .cute-icon img {
   width: 120px;
   display: block;
-  margin: 30px auto;
-  animation: float 3s ease-in-out infinite;
-}
-
-
-
+  margin: 30p
